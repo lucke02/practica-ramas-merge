@@ -12,3 +12,10 @@ function agregarALaPantalla(value) {
     document.getElementById('pantalla').value = '';
   }
   
+  function deletear(){
+    const valorPantalla = document.getElementById('pantalla').value;
+    document.getElementById('pantalla').value = valorPantalla.slice(0,-1)
+  }
+    
+
+  
